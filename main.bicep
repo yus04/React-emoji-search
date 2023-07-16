@@ -19,5 +19,3 @@ resource staticWebApp 'Microsoft.Web/staticSites@2022-03-01' = {
     branch: branch
   }
 }
-
-output deployment_token string = listSecrets(staticWebApp.id, staticWebApp.apiVersion).properties.apiKey
