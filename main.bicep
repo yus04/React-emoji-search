@@ -3,7 +3,8 @@ param location string = 'eastasia'
 param skuName string = 'Free'
 param skuTier string = 'Free'
 param provider string = 'DevOps'
-param repositoryUrl string = 'https://ysaito192@dev.azure.com/ysaito192/Bicep-practice/_git/Bicep-practice'
+// param repositoryUrl string = 'https://ysaito192@dev.azure.com/ysaito192/Bicep-practice/_git/Bicep-practice'
+param repositoryUrl string = 'https://github.com/yus04/React-emoji-search'
 param branch string = 'main'
 
 resource staticWebApp 'Microsoft.Web/staticSites@2022-03-01' = {
